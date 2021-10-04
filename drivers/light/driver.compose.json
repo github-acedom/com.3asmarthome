@@ -1,0 +1,85 @@
+{
+	"name": {
+		"en": "light"
+	},
+	"class": "light",
+	"capabilities": [
+		"onoff",
+		"fan_speed"
+	],
+	"images": {
+		"small": "/drivers/light/assets/images/small.png",
+		"large": "/drivers/light/assets/images/large.png",
+		"xlarge": "/drivers/light/assets/images/xlarge.png"
+	},
+	"zigbee": {
+		"manufacturerName": "3A Smart Home DE",
+		"productId": [
+			"LXN56-1S27LX1.2"
+		],
+		"endpoints": {
+			"1": {
+				"clusters": [
+					0,
+					3,
+					4,
+					5,
+					6,
+					8,
+					4096
+				]
+			},
+			"2": {
+				"clusters": [
+					0,
+					3,
+					4,
+					5,
+					6,
+					8,
+					4096
+				]
+			},
+			"3": {
+				"clusters": [
+					0,
+					3,
+					4,
+					5,
+					6,
+					8,
+					4096
+				]
+			},
+			"4": {
+				"clusters": [
+					0,
+					3,
+					4,
+					5,
+					6,
+					8,
+					4096
+				]
+			}
+		},
+		"devices": {
+			"fan": {
+				"class": "fan",
+				"capabilities": [
+					"onoff",
+					"fan_speed"
+				],
+				"name": {
+					"en": "Fan"
+				}
+			}
+		},
+		"learnmode": {
+			"image": "/drivers/my_driver/assets/learnmode.svg",
+			"instruction": {
+				"en": "Press the button on your device three times"
+			}
+		}
+	}
+}

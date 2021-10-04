@@ -1,0 +1,25 @@
+{
+    "id": "com.3asmarthome",
+    "version": "1.0.0",
+    "compatibility": ">=5.0.0",
+    "sdk": 3,
+    "name": {
+        "en": "3A Smart Home DE"
+    },
+    "description": {
+        "en": "Adds support for 3A Smarthome Zigbee devices"
+    },
+    "category": [
+        "lights"
+    ],
+    "permissions": [],
+    "images": {
+        "small": "/assets/images/small.png",
+        "large": "/assets/images/large.png",
+        "xlarge": "/assets/images/xlarge.png"
+    },
+    "author": {
+        "name": "Graham Smithers",
+        "email": "homey@acedom.net"
+    }
+}

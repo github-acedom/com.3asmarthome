@@ -1,0 +1,15 @@
+{
+  "name": "com.3asmarthome",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/homey": "npm:homey-apps-sdk-v3-types@^0.1.0"
+  },
+  "dependencies": {
+    "homey-zigbeedriver": "^1.6.2",
+    "zigbee-clusters": "^1.4.0"
+  }
+}
