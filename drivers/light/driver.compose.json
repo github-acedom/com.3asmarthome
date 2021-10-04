@@ -1,11 +1,10 @@
 {
 	"name": {
-		"en": "light"
+		"en": "Lights"
 	},
 	"class": "light",
 	"capabilities": [
-		"onoff",
-		"fan_speed"
+		"onoff"
 	],
 	"images": {
 		"small": "/drivers/light/assets/images/small.png",
@@ -78,7 +77,7 @@
 		"learnmode": {
 			"image": "/drivers/my_driver/assets/learnmode.svg",
 			"instruction": {
-				"en": "Press the button on your device three times"
+				"en": "Press the light button for 5 seconds to enable pairing"
 			}
 		}
 	}
