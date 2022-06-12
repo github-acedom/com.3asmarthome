@@ -1,6 +1,6 @@
 {
 	"name": {
-		"en": "Lights"
+		"en": "Fan Light Switch"
 	},
 	"class": "light",
 	"capabilities": [
@@ -8,8 +8,7 @@
 	],
 	"images": {
 		"small": "/drivers/light/assets/images/small.png",
-		"large": "/drivers/light/assets/images/large.png",
-		"xlarge": "/drivers/light/assets/images/xlarge.png"
+		"large": "/drivers/light/assets/images/large.png"
 	},
 	"zigbee": {
 		"manufacturerName": "3A Smart Home DE",
